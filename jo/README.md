@@ -4,6 +4,6 @@ Supported tags and respective `Dockerfile` links:
 
 # Usage
 
-`docker run --rm pottava/jo -p $(env)`
-`docker run --rm pottava/jo -p -a spring summer fall winter`
-`docker run --rm pottava/jo time=$(date +%s) dir=$HOME`
+`docker run --rm pottava/jo -p $(env)`  
+`docker run --rm pottava/jo -p -a spring summer fall winter`  
+`docker run --rm pottava/jo time=$(date +%s) dir=$HOME`  

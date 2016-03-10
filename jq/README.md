@@ -4,5 +4,5 @@ Supported tags and respective `Dockerfile` links:
 
 # Usage
 
-`docker run --rm pottava/jq jq --version`
-`docker run --rm pottava/jq sh -c 'echo "{\"foo\": 1}" | jq "."'`
+`docker run --rm pottava/jq jq --version`  
+`docker run --rm pottava/jq sh -c 'echo "{\"foo\": 1}" | jq "."'`  
