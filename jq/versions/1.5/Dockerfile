@@ -18,5 +18,5 @@ RUN apk --no-cache add --virtual build-dependencies curl make gcc g++ \
       && make \
       && make install \
       && cd / \
-      && rm -rf jq-${JQ_VERSION}.tar.gz jq-${JO_VERSION} glibc-${GLIBC_VERSION}.apk /etc/apk/keys/sgerrand.rsa.pub \
+      && rm -rf jq-${JQ_VERSION}.tar.gz jq-${JQ_VERSION} glibc-${GLIBC_VERSION}.apk /etc/apk/keys/sgerrand.rsa.pub \
       && apk del --purge build-dependencies
